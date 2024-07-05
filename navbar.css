@@ -1,0 +1,19 @@
+/* navbar */
+
+.nav-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+@media(min-width: 1540px) {
+    .nav-wrap {
+        max-width: 1520px !important;
+    }
+}
+
+@media(min-width: 1040px) and (max-width:1540px) {
+    .nav-wrap {
+        max-width: 1140px !important;
+    }
+}
